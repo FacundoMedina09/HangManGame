@@ -1,0 +1,142 @@
+
+/* Header */
+
+.nav {
+    padding: 1rem;
+    background: rgb(76, 53, 117);
+}
+
+.subrayas{
+    text-decoration: none
+
+}
+
+.titulo{
+
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Joan', serif;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+   
+   
+}
+
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+    margin-left: 3rem;
+    border-radius: 50%;
+}
+
+/* Main */
+.main{
+
+    background: linear-gradient(rgb(76, 53, 117), rgb(202, 130, 255));
+}
+
+
+
+.btn-group-vertical{
+
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+
+.btn-group-vertical button{
+
+    margin-bottom: 1.5rem;
+    padding: 2rem;
+    background-color: rgb(55, 27, 88);
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Joan', serif;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid black;
+   
+}
+
+.btn-group-vertical button:hover{
+
+    background-color: rgb(24, 10, 10);
+    box-shadow: 0 0 10px 2px black;
+    border: 2px solid black;   
+}
+
+
+/* Footer */
+
+.nav-footer, p{
+
+    background: rgb(55, 27, 88);
+}
+
+.redes a{
+
+    margin: 2rem 3rem;
+    cursor: pointer;
+}
+
+.iconosredes{
+
+    width: 3rem;
+    height: 3rem;
+    border-radius: 25%;
+    align-items: center;
+}
+
+.iconosredes:hover{
+    width: 3.2rem;
+    height: 3.2rem;
+    
+}
+
+footer p{
+
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-style: italic;
+    color: whitesmoke;
+    font-family: 'Joan', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Pagina de Palabra Nueva */
+
+.cajatexto{
+
+   
+   text-align: center;
+   padding-top: 2rem;
+   
+}
+
+#textentrada{
+
+    width: 50%;
+    height: 25rem;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    box-shadow: 0 0 10px 2px black;
+    box-sizing: border-box;
+    font-family: 'Joan', serif;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    outline: none;
+    border: none;
+    resize: none;
+    border-radius: 5%;
+    background: linear-gradient(rgb(202, 130, 255), rgb(76, 53, 117));
+    
+}
+
+#IngresaPalabra{
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
